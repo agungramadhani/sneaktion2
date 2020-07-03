@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="185dp"
+    android:layout_marginTop="5dp"
+    android:padding="8dp"
+    tools:showIn="@layout/activity_notif">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/notify"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:id="@+id/cv"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/notif_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Notifikasi"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notif_namapen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/white"
+            android:text="Nama : Aisha"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/notif_alamatkos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Email : aisha@gmail.com"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/notif_namakos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Brand Sepatu : Adidas"
+            android:textSize="16sp" />
+
+
+
+        <TextView
+            android:id="@+id/notif_hargasewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Check : Original"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
